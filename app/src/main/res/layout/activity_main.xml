@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simple_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification" />
+    <Button
+        android:id="@+id/tap_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap Action Notification" />
+    <Button
+        android:id="@+id/action_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action Button Notification" />
+    <Button
+        android:id="@+id/reply_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply Button Notification" />
+    <Button
+        android:id="@+id/progress_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Notification" />
+    <Button
+        android:id="@+id/urgent_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urgent Message Notification" />
+    <Button
+        android:id="@+id/messageStyle_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message Style Notification" />
+    <Button
+        android:id="@+id/bigPicture_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big Picture Notification" />
+    <Button
+        android:id="@+id/bigText_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big Text Style Notification" />
+    <Button
+        android:id="@+id/headsup_notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heads Up Notification" />
+
+
+
+</LinearLayout>
